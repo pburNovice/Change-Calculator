@@ -1,0 +1,91 @@
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("https://wallpapers.com/images/hd/scientific-calculator-on-black-background-ezmjqmuo4jd7qevz.jpg");
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #222;
+}
+
+
+.Price,
+.Customer {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  padding: 8px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+
+#calculate-change {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 18px;
+  font-size: 16px;
+  background-color: #0078d4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#calculate-change:hover {
+  background-color: #005fa3;
+}
+
+
+#output {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 10px;
+  min-height: 24px;
+}
+
+
+.change-output {
+  margin-top: 25px;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+  padding: 15px 20px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.change-output p {
+  margin: 8px 0;
+  font-size: 17px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dotted #ccc;
+  padding-bottom: 4px;
+}
+
+
+.change-output p p {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
